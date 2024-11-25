@@ -1,0 +1,267 @@
+
+body{
+    color:#1b3624;
+    background-color:#75937e;
+    
+}
+header img{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    border: 5px solid #486551;
+}
+a{
+    text-decoration: none; /* usei esse comando aqui para deixar geral, qualquer problema mexo depois*/
+}
+
+.criador h1, p{
+    padding: 1%;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+
+
+.cabecalho-entrar {
+    padding: 15px 30px;
+    background-color: #486551;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #a2c2aa;
+    text-decoration: none; /* usado para tirar aquele traço debaixo do texto do link */
+}
+.cabecalho-entrar:hover {
+    background-color: #cff0d7;
+    color:#a2c2aa ;
+    transition: 0.4s;
+    border: #75937e solid 2.5px;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px;
+    border-bottom: 0.4px solid #1b3624;
+}
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-left: 370px;
+    gap: 50px;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.cabecalho-menu-item {
+    color: #cff0d7;
+    padding: 10px;
+    border-radius: 10px;    
+}
+.cabecalho-menu-item:hover {
+    background-color: #1b3624;
+    color: #cff0d7;
+    transition: 0.4s;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+    background: #486551;
+    border: 0px solid #1b3624;
+    border-radius: 7px;
+    box-shadow:0px 0px 9px 0px #a2c2aa;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-size: 30px;
+    padding: 0px 0px 20px 0px;
+    font-weight: bold;
+}
+
+.conteudo-principal-escrito-texto {
+    display: block;
+    color: #a2c2aa;
+    line-height: 50px;
+    text-align: justify;
+}
+
+.conteudo-secundario {
+    
+    border: 0px solid #a2c2aa;
+    box-shadow:0px 0px 12px 3px #a2c2aa;
+    padding: 50px;
+}
+
+.conteudo-secundario-escrito {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.conteudo-secundario-escrito-titulo {
+    color:#1b3624;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.conteudo-secundario-escrito-texto {
+    color:#1b3624;
+    padding: 20px;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+.conteudo-secundario-imagem{
+    height: 400px;
+    border-radius: 15px;
+    box-shadow:0px 0px 20px 1px #a2c2aa;
+}
+
+
+.rodape {
+    margin-top: 120px;
+    border-top: #1b3624 solid 0.4px;
+    color: #486551;
+    text-align: center;
+    padding: 30px;  
+}
+
+.criador{
+
+    display: flex;
+    gap: 50px;
+    border: 0px solid #486551;
+    box-shadow: 0px 0px 12px 3px #a2c2aa;
+    padding: 100px;
+    border-radius: 15px; 
+    padding: 100px;
+    padding-left: 1px;
+    margin: 30px;
+}
+.criador img{
+    border: 0px solid #486551;
+    box-shadow: 0px 0px 12px 3px #a2c2aa;
+    padding: 1px;
+    border-radius: 7px;
+}
+.criador h1{
+    position: relative;
+    top: -100px;
+    left: 20px;
+}
+h2{
+    position: relative;
+    top: -50px;
+    padding-left: 88px;
+}
+
+/* -------------curiosidades--------------*/
+
+.curiosidade-titulo {
+    font-size: 32px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+}
+
+.curiosidade-subtitulo {
+    text-align: center;
+    padding-bottom: 4px;
+    font-size: 29px;
+}
+
+.curiosidade-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.curiosidade-info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border: 0px solid #486551;
+    box-shadow:0px 0px 12px 3px #a2c2aa;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.curiosidade-imagem {
+    position:relative;
+    left: 580px;
+    height: 200px;
+    width: 300px;
+
+    box-shadow:0px 0px 12px 3px #a2c2aa;
+    border-radius: 2%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.curiosidade2-titulo {
+    font-size: 32px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+}
+
+.curiosidade2-subtitulo {
+    text-align: center;
+    padding-bottom: 4px;
+    font-size: 29px;
+}
+
+.curiosidade2-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.curiosidade2-info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border: 0px solid #486551;
+    box-shadow:0px 0px 12px 3px #a2c2aa;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.curiosidade2-imagem {
+    height: 200px;
+    width: 300px;
+
+    box-shadow:0px 0px 12px 3px #a2c2aa;
+    border-radius: 2%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+li{
+    padding: 10px;
+}

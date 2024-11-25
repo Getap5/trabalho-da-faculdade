@@ -1,0 +1,129 @@
+body{
+    
+    background-size: cover ;
+    background-position: center;
+    
+    background-color: rgb(58, 58, 58);
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h3{
+    color: aliceblue;
+}
+.eu{
+    position: relative;
+    margin: -10px;
+    
+}
+.criador img{
+    position: relative;
+    left: 30%;
+    width: 250px;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.criador h3{
+    font-size: 30px;
+    position: relative;
+    left: 35%;
+}
+.social{
+
+    position: relative;
+    gap: 40px;
+    
+}
+
+.social a{
+
+    display: block;
+    position: relative;
+    left: 17%;
+    top: -7.5em;
+    
+}
+
+.social i {
+
+    font-size: 1%;
+    position: relative;
+    top: -80em;
+}
+.social img{
+
+    max-width: 40px;
+    max-height: 40px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.container{
+    position: relative;
+    left: 33%;
+    width: 30%;
+    padding: 10px;
+}
+.colaboradores{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.colaborador{
+    text-align: center;
+}
+
+.colaborador img {
+    position: relative;
+    
+    max-width: 100px;
+    height: auto;
+    border-radius: 5%;
+    border: 2px solid #000;
+    border-radius: 8px;
+
+}
+.projetos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projetos img{
+    display: flex;
+    width: 13%;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 8px;
+    
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.footer footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer img {
+    max-width: 120px;
+    height: auto;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.btn3{
+    cursor:pointer;
+    color:rgba(36, 196, 30, 0.87);
+    border:none;
+    background-color:#2e035298;
+    border-radius:1000px;
+    width:61px;
+    height:31px;
+}

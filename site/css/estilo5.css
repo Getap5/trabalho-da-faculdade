@@ -1,0 +1,140 @@
+/* -----------------comandos gerais----------------------*/
+
+body{
+    color:#1b3624;
+    background-color:#75937e;
+    
+}
+header img{
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    border: 5px solid #486551;
+}
+a{
+    text-decoration: none; /* usei esse comando aqui para deixar geral, qualquer problema mexo depois*/
+}
+
+/* -----------------comandos da parte de cima----------------------*/
+
+.cabecalho-entrar {
+    padding: 15px 30px;
+    background-color: #486551;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #a2c2aa;
+    text-decoration: none; /* usado para tirar aquele traço debaixo do texto do link */
+}
+.cabecalho-entrar:hover {
+    background-color: #cff0d7;
+    color:#a2c2aa ;
+    transition: 0.4s;
+    border: #75937e solid 2.5px;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px;
+    border-bottom: 0.4px solid #1b3624;
+}
+.cabecalho-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-left: 370px;
+    gap: 50px;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.cabecalho-menu-item {
+    color: #cff0d7;
+    padding: 15px;
+    border-radius: 10px;    
+}
+.cabecalho-menu-item:hover {
+    background-color: #1b3624;
+    color: #cff0d7;
+    transition: 0.4s;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+    background: #486551;
+    border: 0px solid #1b3624;
+    border-radius: 7px;
+    box-shadow:0px 0px 9px 0px #a2c2aa;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-size: 30px;
+    padding: 0px 0px 20px 0px;
+    font-weight: bold;
+}
+
+.conteudo-principal-escrito-texto {
+    display: block;
+    color: #a2c2aa;
+    line-height: 50px;
+    text-align: justify;
+}
+
+/* -----------------comandos da parte do meio----------------------*/
+
+.conteudo-secundario {
+    
+    border: 0px solid #a2c2aa;
+    box-shadow:0px 0px 12px 3px #a2c2aa;
+    padding: 50px;
+}
+
+.conteudo-secundario-escrito {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.conteudo-secundario-escrito-titulo {
+    color:#1b3624;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.conteudo-secundario-escrito-texto {
+    color:#1b3624;
+    padding: 20px;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+.conteudo-secundario-imagem{
+    height: 400px;
+    border-radius: 15px;
+    box-shadow:0px 0px 20px 1px #a2c2aa;
+}
+
+/* -----------------comandos da parte de baixo---------------------*/
+
+.rodape {
+    margin-top: 120px;
+    color: #486551;
+    text-align: center;
+    padding: 30px;  
+}
+
+/* ...........sobre a historia do game e tals............*/
+

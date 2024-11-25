@@ -1,0 +1,104 @@
+footer{
+    text-align: center;
+    padding: 2px;
+    width: 200px;
+    height: 318px;
+    background-color: rgb(0, 0, 0);
+}
+
+.link-campo-minado{
+    color: rgb(255, 136, 0);
+}
+
+.link-campo-minado :hover{
+    color: red;
+}
+
+image-rodape{
+    width: 10px;
+    height: auto;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: solid 2px  rgba(130, 164, 167, 0.897);
+}
+th{
+    color: aliceblue;
+}
+
+.facil{
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    background-size: 10px;
+}
+
+.bom{
+    color: green;
+}
+.medium{
+    color:yellow;
+
+}
+
+.ruim{
+    color: red;
+
+}
+
+h1{
+    
+    color: orange;
+}
+
+.imagem{
+    background-image:url(/imagens/918467.jpg);
+    background-size: cover ;
+} /* cover preenche a imagem toda, fica manerin*/
+
+.iniciar{
+    position:relative;
+    left: 730px;
+    font-size: 22px;
+    background-color: rgb(142, 216, 179);
+    border-color: rgb(142, 216, 171);
+    border-radius: 1000px;
+    border-width: 16px;
+    margin: 10px;
+}
+
+.facil{
+    font-size: medium;
+    border-color: aliceblue;
+    border-radius: 1000px;
+    border-width: 16px;
+    position:relative;
+    left: 730px;
+    
+}
+
+#mensagem1{
+    position:relative;
+    left: 200px;
+}
+
+#mensagem2{
+    position:relative;
+    left: 200px;
+}
+
+#mensagem3{
+    position:relative;
+    left: 200px;
+}
+
+#mensagem4{
+    position:relative;
+    left: 200px;
+}
+
+#mensagem5{
+    position:relative;
+    left: 200px;
+}
+
